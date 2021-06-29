@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height:100%;
+  background: #000000;
+  color:white;
+  overflow:hidden;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.profile {
+   display:block;
+   float:right;
+}
+
+.texts {
+    padding: 30px;
+    display:block;
+    float:right;
+}
+
+.btn-dark-github {
+    background: #807d7d !important;
+    border:none !important;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.btn-dark-discord {
+    background: #114bec !important;
+    border:none !important;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.btn-dark-instagram {
+    background: #a00244 !important;
+    border:none !important;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.btn-dark-spotify {
+    background: #049e38 !important;
+    border:none !important;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.btn-dark-twitch {
+    background: #7d0ae9 !important;
+    border:none !important;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.btn-dark:hover {
+    background: #000000 !important;
+    transition: 0.2s;
+    border:none !important;
+    outline:none !important;
+    box-shadow: none !important;
+}
+
+.btn-dark-twitter {
+    background: #0abce9 !important;
+    border:none !important;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+
+
+.btn-dark:focus {
+    border:none !important;
+    outline:none !important;
+    box-shadow: none !important;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 991px) {
+    .texts {
+      font-size:12px !important;
+      align-items: center;
+      text-align:center;
+      width: 100%;
+    }
+    .avatar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-dark {
+        margin:3px;
+    }
+  }
+ 
